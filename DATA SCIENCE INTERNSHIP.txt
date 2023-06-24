@@ -1,0 +1,46 @@
+UNIACCO DATA SCIENCE INTERNSHIP README 
+
+
+
+Columnwise Feature Engineering that can be applied to optimise data and increase accuracy .
+
+
+1. Budget - This column can be broken down into bins that contain a certain range of values 
+for exam $0-50 , 50-100 , 100-150 
+
+2. Lease - This column can be categories into broaded categories of FULL YEAR , SEMESTER , FULL COURSE . OR it can be divided on the basis of weeks for example 10-20 weeks , 20-30 weeks , 30-40 weeks .
+
+3. Room type - the null values in this column can be filled with conditional values based on the value in the budget column 
+
+4. Countries and Cities - Filling customised values in these columns because a city can only belong to particular country and filling null values in this column with mode might lead to incorrect row value all together . 
+
+
+
+
+# USING ONE HOT ENCODING INSTEAD OF LABEL ENCODER MAY LEAD TO HIGHER ACCURACY 
+# USING MULTIPLE LOGISTIC REGRESSION INSTEAD OF RANDOM FOREST . 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
